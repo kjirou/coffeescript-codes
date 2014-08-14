@@ -1,0 +1,17 @@
+{
+  "name": "coffeescript_codes",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kjirou/coffeescript_codes"
+  },
+  "private": true,
+  "description": "",
+  "version": "0.0.1",
+  "author": "kjirou",
+  "dependencies": {
+  },
+  "devDependencies": {
+  },
+  "scripts": {
+  }
+}

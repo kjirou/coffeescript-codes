@@ -16,7 +16,7 @@ x = 2
 assert foo() is 2
 
 
-# JSにコンパイルすると x をスコープで先頭で宣言しているからである
+# JSにコンパイルすると x をスコープ先頭で宣言しているからである
 #
 # %coffee -p ./index.coffee
 # (function() {

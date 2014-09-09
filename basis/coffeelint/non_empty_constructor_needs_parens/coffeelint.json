@@ -1,0 +1,5 @@
+{
+  "non_empty_constructor_needs_parens": {
+    "level": "error"
+  }
+}

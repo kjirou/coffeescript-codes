@@ -1,0 +1,6 @@
+{
+  "cyclomatic_complexity": {
+    "level": "error",
+    "value": 4
+  }
+}

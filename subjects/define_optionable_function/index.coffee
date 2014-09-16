@@ -3,9 +3,15 @@
 assert = require 'assert'
 
 
+#
+# 初期化出来るのか
+#
 foo = (arg, {opt1, opt2, opt3}={}) ->
+  # オプションについてのコメント
   opt1 ?= 1
+  # オプションについてのコメント
   opt2 ?= false
+  # オプションについてのコメント
   opt3 ?= null
 
   {
@@ -14,7 +20,6 @@ foo = (arg, {opt1, opt2, opt3}={}) ->
     opt2
     opt3
   }
-
 
 result = foo 1
 assert.strictEqual result.arg, 1

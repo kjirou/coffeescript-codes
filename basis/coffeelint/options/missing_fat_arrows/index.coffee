@@ -1,4 +1,4 @@
-#!../../../node_modules/.bin/coffeelint
+#!../../../../node_modules/.bin/coffeelint
 
 #
 # this を含む関数は必ず => で宣言しないといけない

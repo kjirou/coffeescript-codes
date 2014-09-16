@@ -11,7 +11,7 @@
   "dependencies": {
   },
   "devDependencies": {
-    "coffeelint": "~1.6.0"
+    "coffeelint": "1.6.0"
   },
   "scripts": {
   }

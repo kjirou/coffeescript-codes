@@ -1,4 +1,4 @@
-#!../../../node_modules/.bin/coffeelint
+#!../../../../node_modules/.bin/coffeelint
 
 #
 # @ を直接評価してはいけない

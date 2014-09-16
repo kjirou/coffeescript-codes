@@ -1,4 +1,4 @@
-#!../../../node_modules/.bin/coffeelint
+#!../../../../node_modules/.bin/coffeelint
 
 
 class Foo

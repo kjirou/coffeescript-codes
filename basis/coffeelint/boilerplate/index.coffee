@@ -153,6 +153,14 @@ Foo = class
 new Foo 1  # Ignored
 
 #
+# prefer_english_operator
+#
+1 is 1  # Good
+foo = not false  # Good
+1 == 1  # Bad
+foo = !false  # Bad
+
+#
 # space_operators
 #
 foo = 1+1  # Ignored

@@ -4,6 +4,16 @@ assert = require 'assert'
 
 
 #
+# 比較演算子が結合できる
+#
+assert (1 < 2 < 3)
+assert (1 < 2 < 2.1)
+assert (1.9 < 2 < 3)
+assert (1 < 2 < 2) is false
+assert (2 < 2 < 3) is false
+
+
+#
 # [n..m] と [n...m] の違い
 #
 assert.deepEqual [1..3], [1, 2, 3]

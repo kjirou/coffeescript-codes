@@ -45,9 +45,7 @@ assert bar is 0
 #
 count = 0
 loop  # while true と一緒
-  count++
-  if count >= 5
-    break
+  break if ++count >= 5
 assert count is 5
 
 

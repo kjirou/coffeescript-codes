@@ -21,7 +21,7 @@ assert.deepEqual arr[..1], [11, 22]
 
 
 #
-# =and 演算子
+# =and と =or 演算子
 #
 foo = 1
 foo or= false  # foo || (foo = false);
@@ -41,7 +41,7 @@ assert bar is 0
 
 
 #
-# loop 制御
+# loop 制御構文
 #
 count = 0
 loop  # while true と一緒
@@ -49,3 +49,12 @@ loop  # while true と一緒
   if count >= 5
     break
 assert count is 5
+
+
+#
+# 変数の代入後に改行するとインデントがいらない
+#
+foo =
+'FOO'
+
+assert foo is 'FOO'

@@ -8,10 +8,10 @@
 assert = require 'assert'
 
 
+# util 変数を overwrite の実行で上書きしている
 util = require 'util'
 
 assert typeof util is 'object'
-assert 'inherits' of util
 
 overwrite = ->
   util = 2

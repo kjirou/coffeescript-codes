@@ -1,4 +1,4 @@
-coffeescript_codes
+coffeescript-codes
 ==================
 
 My CoffeeScript verification histories

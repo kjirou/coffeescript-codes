@@ -1,8 +1,8 @@
 {
-  "name": "coffeescript_codes",
+  "name": "coffeescript-codes",
   "repository": {
     "type": "git",
-    "url": "https://github.com/kjirou/coffeescript_codes"
+    "url": "https://github.com/kjirou/coffeescript-codes"
   },
   "private": true,
   "description": "",
